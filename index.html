@@ -1,79 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  <link href="https://fonts.google.com/specimen/Work+Sans?selection.family=Work+Sans:400,700,900" type="text/css" rel="stylesheet">
-  <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
   <title>Match Game</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="shortcut icon" href="favicon.png" type="image/icon">
-  <link rel="icon" href="favicon.png" type="image/icon">
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./resources/css/reset.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
 </head>
 <body>
   <div class="container">
     <div class="row">
-      <div class="game-instructions col-xs-12 col-sm-12 col-md-12 col-lg-3">
+      <div class="col-md-3 col-xs-12">
         <h1>Match Game</h1>
-        <h3>Rules</h3>
+        <h2>Rules</h2>
         <p>Click on a card to reveal the number on the other side. Click on a second card to try and find a match to the first. If you succeed, the pair will be removed from play. If not, try again!</p>
-        <h3>How To Win</h3>
+        <h2>How To Win</h2>
         <p>You win when all pairs have been found.</p>
       </div>
-      <div id="game" class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
-        <div class="row">
-          <div class="card">
-            <h2></h2>
-          </div>
-          <div class="card">
-              <h2></h2>
-          </div>
-          <div class="card">
-            <h2></h2>
-          </div>
-          <div class="card">
-            <h2></h2>
-          </div>
-          <div class="card">
-            <h2></h2>
-          </div>
-          <div class="card">
-            <h2></h2>
-          </div>
-          <div class="card">
-            <h2></h2>
-          </div>
-          <div class="card">
-            <h2></h2>
-          </div>
-          <div class="card">
-              <h2></h2>
-          </div>
-          <div class="card">
-            <h2></h2>
-          </div>
-          <div class="card">
-            <h2></h2>
-          </div>
-          <div class="card">
-            <h2></h2>
-          </div>
-          <div class="card">
-            <h2></h2>
-          </div>
-          <div class="card">
-            <h2></h2>
-          </div>
-          <div class="card">
-            <h2></h2>
-          </div>
-          <div class="card">
-            <h2></h2>
-          </div>
-        </div>
+      <div class="col-md-9 col-xs-12" id="game">
       </div>
+    </div>
   </div>
   <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"

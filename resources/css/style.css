@@ -1,40 +1,43 @@
-html{
-  font-size: 14px;
-  font-family: "Work Sans",sans-serif;
-  background-color: rgb(255,242,242);
+html {
+  font-size: 16px;
 }
 
-.container{
-  margin-top: 5.25rem;
-}
-
-.game-instructions h1{
-  font-size: 2.5rem;
-  font-weight: bold;
+body {
+  min-width: 400px; /* To emulate Chrome min-width */
+  background-color: rgb(255, 242, 242);
+  font-family: "Work Sans", sans-serif;
   color: rgb(32, 64, 86);
 }
 
-.game-instructions h3{
-  font-size: 1rem;
+h1 {
+  font-size: 2.1875rem;
   font-weight: bold;
+}
+
+h2 {
+  font-size: .875rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: .875rem;
   color: rgb(74, 74, 74);
 }
 
-.card{
-  width: 25%;
-  height: 12.5rem;
-  background-color: rgb(32, 64, 86);
-  border: 4px solid #ffffff;
-  border-radius: 8px;
+.container {
+  padding-top: 5.25rem;
 }
 
-.card h2{
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12.5rem;
+  border: 4px solid white;
+  border-radius: 8px;
+  background-color: rgb(32, 64, 86);
   font-size: 7rem;
   font-weight: 900;
-  text-align: center;
   color: rgb(255, 255, 255);
-}
-
-.card:hover{
   cursor: pointer;
 }
